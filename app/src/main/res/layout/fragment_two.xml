@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Second_MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:gravity="center"
+            android:paddingBottom="50dp">
+
+
+            <LinearLayout
+                android:layout_width="272dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="272dp"
+                    android:layout_height="84dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="143dp"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:text="  SKKU"
+                        android:textColor="@color/black"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/radius"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/zoom" />
+
+                        <EditText
+                            android:id="@+id/textView4"
+                            android:layout_width="229dp"
+                            android:layout_height="37dp"
+                            android:background="@null"
+                            android:gravity="center|left"
+                            android:hint="  search" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:onClick="mOnPopupClick1"
+                android:id="@+id/second_second_first_btn"
+                android:layout_width="319dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/box_layout1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/second_fragment_1" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:paddingLeft="40dp"
+                    android:text="이미지 불러오기"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="mOnPopupClick2"
+                android:id="@+id/second_second_second_btn"
+                android:layout_width="319dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/box_layout1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/second_fragment_2" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:paddingLeft="40dp"
+                    android:text="임계값 설정"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="mOnPopupClick3"
+                android:id="@+id/second_second_third_btn"
+                android:layout_width="319dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/box_layout1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/second_fragment_3" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:paddingLeft="40dp"
+                    android:text="균열 검출 정보 출력"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
