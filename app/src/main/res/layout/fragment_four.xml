@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+
+        <LinearLayout
+            android:layout_width="547dp"
+            android:layout_height="280dp"
+            android:gravity="center"
+            android:paddingBottom="50dp">
+
+
+            <LinearLayout
+                android:layout_width="386dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="129dp"
+                    android:layout_height="84dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/logo" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="248dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/radius"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/zoom"
+                            android:layout_marginLeft="8dp"/>
+
+                        <EditText
+                            android:id="@+id/textView4"
+                            android:layout_width="186dp"
+                            android:layout_height="37dp"
+                            android:background="@null"
+                            android:gravity="center|left"
+                            android:layout_marginLeft="8dp"
+                            android:hint="search" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="295dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="500dp"
+                android:layout_height="145dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/box_layout1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/box_layout1"
+                    android:gravity="center|top">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="검측 체크리스트 기록"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pencil"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/box_layout1"
+                    android:gravity="center|top">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="검측 이력 조회 및 관리"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/menu"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

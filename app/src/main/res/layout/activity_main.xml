@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:gravity="center"
+            android:text="PC부재 균열 검출 자동화 시스템"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="625dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="1042dp"
+            android:layout_height="625dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="272dp"
+                android:layout_height="153dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="272dp"
+                    android:layout_height="84dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="143dp"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:text="  SKKU"
+                        android:textColor="@color/black"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/radius"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/zoom" />
+
+                        <EditText
+                            android:id="@+id/textView4"
+                            android:layout_width="229dp"
+                            android:layout_height="37dp"
+                            android:gravity="center|left"
+                            android:hint="  search"
+                            android:background="@null"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TableRow
+                        android:layout_width="495dp"
+                        android:layout_height="133dp"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:id="@+id/Second_MainActivity_btn1"
+                            android:layout_width="296dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/box_layout1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/main_1" />
+
+                            <TextView
+                                android:layout_width="250dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center|left"
+                                android:paddingLeft="80dp"
+                                android:text="영상 촬영"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/Second_MainActivity_btn2"
+                            android:layout_width="319dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/box_layout1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/main_2" />
+
+                            <TextView
+                                android:layout_width="250dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center|left"
+                                android:paddingLeft="40dp"
+                                android:text="영상 분석 및 결함 검출"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:id="@+id/Second_MainActivity_btn3"
+                            android:layout_width="319dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/box_layout1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/main_3" />
+
+                            <TextView
+                                android:layout_width="250dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center|left"
+                                android:paddingLeft="80dp"
+                                android:text="계측 정보"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/Second_MainActivity_btn4"
+                            android:layout_width="319dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/box_layout1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/main_4" />
+
+                            <TextView
+                                android:layout_width="250dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center|left"
+                                android:paddingLeft="80dp"
+                                android:text="검측 정보"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="104dp"
+            android:layout_height="35dp"
+            android:background="@drawable/box_layout1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="로그아웃" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
